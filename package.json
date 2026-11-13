@@ -1,0 +1,26 @@
+{
+  "name": "@buainoai/daily-puzzle-kit",
+  "version": "0.1.0",
+  "description": "Deterministic daily puzzle utilities for browser games",
+  "type": "module",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --experimental-strip-types --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
