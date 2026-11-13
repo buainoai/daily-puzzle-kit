@@ -4,7 +4,6 @@ Small, framework-agnostic TypeScript utilities for building **daily browser game
 
 Create a shared daily puzzle without running a database or server just to choose today's challenge. The same UTC date, namespace, and item list produce the same result on every device.
 
-> Maintained by [BUAI](https://buai.dev/) — the maker of [DLE Games](https://dlegames.org/), a directory of daily browser puzzles.
 
 ## Features
 
@@ -64,12 +63,6 @@ npm test
 ```
 
 The repo is intentionally small: one core TypeScript module and built-in Node.js tests. The tests run against source with Node's TypeScript type stripping; publishing JavaScript still requires a TypeScript build. No UI framework or server is required.
-
-## Related projects
-
-- [DLE Games](https://dlegames.org/) — discover daily games and Wordle alternatives
-- [RNGdle](https://rngdle.net/) — a daily randomness game
-- [BUAI GitHub](https://github.com/buainoai) — additional projects and tools
 
 ## Licensing and npm publication
 
