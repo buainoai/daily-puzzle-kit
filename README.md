@@ -71,6 +71,6 @@ The repo is intentionally small: one core TypeScript module and built-in Node.js
 - [RNGdle](https://rngdle.net/) — a daily randomness game
 - [BUAI GitHub](https://github.com/buainoai) — additional projects and tools
 
-## Before public release
+## Licensing and npm publication
 
-This is a starter repository, **not an npm-published package**. Its `package.json` is marked private to avoid accidental publication. Before inviting third-party code reuse, confirm ownership and choose a license (MIT is a typical option for this kind of utility).
+This public repository is a starter project, **not an npm-published package**. Its `package.json` is marked private to avoid accidental npm publication; that setting does not make the GitHub repository private. A public repository does not automatically grant open-source reuse rights. Before inviting third-party code reuse, confirm ownership and add a license (MIT is a typical option for this kind of utility).
