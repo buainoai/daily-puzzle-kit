@@ -1,5 +1,5 @@
 {
-  "name": "@buainoai/daily-puzzle-kit",
+  "name": "daily-puzzle-kit",
   "version": "0.1.0",
   "description": "Deterministic daily puzzle utilities for browser games",
   "type": "module",
